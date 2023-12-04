@@ -437,19 +437,20 @@ h2 {
       transform: translateY(-8px) rotate(-45deg);
     }
 
-   .navmenu {
-      position: fixed;
-      opacity: 0;
-      flex-direction: column;
-      text-align: center;
-      transition: 0.3s;
-      padding: 60px;
-      background-color: white;
-      border: 1px solid lightgray;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      pointer-events: none;
+    .navmenu {
+       position: fixed;
+       opacity: 0;
+       flex-direction: column;
+       text-align: center;
+       transition: 0.3s;
+       padding: 60px;
+       background-color: white;
+       border: 1px solid rgb(140, 140, 140);
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%, -50%);
+       pointer-events: none;
+       font-weight: 300;
     }
 
     .navmenu li {
