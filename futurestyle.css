@@ -84,7 +84,7 @@ nav ul {
     display: block;
     position: relative;
     top: 0px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 nav li {
@@ -708,11 +708,12 @@ hr {
        transition: 0.3s;
        padding: 60px;
        background-color: white;
-       border: 1px solid lightgray;
+       border: 1px solid rgb(140, 140, 140);
        left: 50%;
        top: 50%;
        transform: translate(-50%, -50%);
        pointer-events: none;
+       font-weight: 300;
     }
  
     .navmenu li {
