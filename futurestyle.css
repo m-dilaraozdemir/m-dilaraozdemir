@@ -899,6 +899,11 @@ hr {
         font-size: 30px;
     }
 
+    .box2 a {
+        pointer-events: none;
+        opacity: 0;
+    }
+
     .box2 {
         height: 120px;
     } 
