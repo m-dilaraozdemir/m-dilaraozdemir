@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <link rel="stylesheet" href="aboutstyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">  
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>MDO | About</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="box1">
+      <nav>
+        <a href="work.html"> 
+          <img class="logo" src="work/logo.jpg" alt="Logo">
+        </a>
+        <ul class="navmenu">
+          <li>
+            <a class="nav-link" href="work.html"> Work </a>
+          </li>
+          <li>
+            <a class="nav-link" href="about.html"> About </a>
+          </li>
+          <li>
+            <a class="nav-link" href="contact.html"> Contact </a>
+          </li>
+          <li>
+            <a class="nav-link" href="work/MerveDilaraOzdemir_CV.pdf" target="blank"> CV </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="box2">
+      <h1> About Me </h1>
+    </div>
+
+    <div class="box3">
+          <img class="me" src="work/me.jpg">
+    </div>
+
+    <div class="box4">
+      <p>Hi, I'm Merve Dilara Özdemir. First, thank you for considering me. I have always loved design, art, solving complex problems and mathematics. That is why I chose architecture for my university degree. But, while I was studying, I realised something was missing and that this path wasn't right for me. I wanted a more dynamic and fast-paced working environment where I could study human interactions and learn entirely new concepts. So, after my graduation, I looked for what could be an ideal career for me, which turned out to be UX Design. It was perfect: everything architecture wasn't while also having the best aspects of architecture -designing and analysing human interactions-. I have decided to learn UX Design and be as good at it as possible. I have completed the Google Course for UX Design and then started working on my portfolio and doing projects in very diverse fields. I wanted to learn and be experienced in as many aspects of UX Design as possible. I also learned HTML and CSS while working on my portfolio. I've coded this website myself!  
+      </p>
+    </div>
+
+    <div class="box5">
+      <p>Now, I'm ready to showcase what I have done to you. You can be sure that I'm a fast learner, eager to work and a great problem solver. I can think very analytically and come up with multiple solutions in a short period. I can also say that I can be very empathetic, it is easy for me to put myself in other people's shoes, and understand what other people are feeling. I do very well in collaborative environments where I can work with other people towards a common goal while also being content with working by myself. Hope to work with you soon. Have a lovely day!
+      </p>
+    </div>
+
+    <div class="box6">
+      <p>made by M. Dilara Özdemir 
+      <br>with love</p>
+    </div>
+  </div>
+
+  <script src="scripts/about.js"></script>
+
+</body>
+
+</html>
