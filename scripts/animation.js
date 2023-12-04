@@ -1,0 +1,37 @@
+function animation(canvasID, videoInfo) {
+    const canvas = document.getElementById(canvasID);
+    const canvasContext = canvas.getContext("2d");
+  
+    canvas.height = 1200;
+    canvas.width = 1425;
+  
+    for (let i = 0; i <= videoInfo.totalFrames; i++) {
+      const img = new Image();
+      img.src = videoInfo.currentImage(i);
+      videoInfo.images.push(img);
+    }
+  
+    gsap.to(videoInfo, {
+      currentFrame: videoInfo.totalFrames,
+      snap: "currentFrame",
+      ease: "none",
+      scrollTrigger: {
+        trigger: canvas,
+        start: 0,
+        end: 550,
+        scrub: 0,
+        pin: true,
+      },
+      onUpdate: render,
+    });
+  
+    videoInfo.images[1].onload = () => {
+      canvasContext.drawImage(videoInfo.images[1], 0, 0);
+    };
+  
+    function render() {
+      canvasContext.drawImage(videoInfo.images[videoInfo.currentFrame], 0, 0);
+    }
+  }
+
+  
