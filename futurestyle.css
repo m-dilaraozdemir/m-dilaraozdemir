@@ -664,8 +664,12 @@ hr {
         font-weight: 200;
     }
 
+    #dvideo {
+        top: 45%;
+    }
+
     .title {
-        top: calc(60vh + 650px);
+        top: calc(50vh + 650px);
     }
 
     #description {
@@ -954,6 +958,12 @@ hr {
         padding-top: 20px;
     }
 
+    #dvideo {
+        max-width: 100%;
+        left: 0%;
+        top: 37%;
+    }
+
 }
 
 @media screen and (max-width: 380px) {
@@ -970,6 +980,10 @@ hr {
     .box1 {
        margin: 20px 0px;
        padding: 0 30px;
+    }
+
+    #dvideo {
+        top: 34%;
     }
 
 }
@@ -998,6 +1012,10 @@ hr {
 
     #highfidelity video {
         max-width: 260px;
+    }
+
+    #dvideo {
+        top: 32%;
     }
 
 }
