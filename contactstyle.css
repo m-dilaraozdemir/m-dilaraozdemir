@@ -1,0 +1,487 @@
+body {
+    margin: 20px;
+    font-family: "Josefin Sans", "Avenir Next", Helvetica;
+    max-width: 1200px;
+    margin: auto;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 17px;
+    color: rgb(140, 140, 140);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box1" 
+      "box2" 
+      "box3" 
+      "box4" 
+}
+
+.box1 {
+    grid-area: box1;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+    margin: 20px 30px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.box2 {
+    grid-area: box2;
+    height: 160px;
+    margin: 30px;
+    position: relative;
+    top: 40px;
+    color: rgb(109, 109, 109);
+    margin-bottom: 60px;
+}
+
+.box3 {
+    grid-area: box3;
+    position: relative;
+    top: 0px;
+    margin: 10px 30px;
+}
+
+.box4 {
+    grid-area: box4;
+    position: relative;
+    top: 200px;
+    margin: 30px;
+    font-weight: 100;
+}
+
+.logo {
+    float: left;
+    display: block;
+    width: 70px;
+    position: relative;
+    top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    display: block;
+    position: relative;
+    font-weight: 100;
+}
+
+nav li {
+    display: inline;
+    padding-left: 40px;
+}
+
+nav a:link {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+
+.nav-link[aria-current="page"] {
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+}
+
+
+.box2 h1 {
+    font-family:  "Bodoni Moda", 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.background {
+    max-width: 1140px;
+}
+
+.box4 p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.square {
+    width: 1000px;
+    height: 240px;
+    background-color: white;
+}
+
+.square {
+    left: 50%;
+    margin-left: -500px;
+    bottom: 50px;
+    position: absolute;
+}
+
+.email {
+    top: 110px;
+    position: absolute;
+    text-align: center;
+    left: 15%;
+    line-height: 2.4;
+}
+
+.phone {
+    top: 110px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 2.4;
+}
+
+.social {
+    top: 110px;
+    position: absolute;
+    text-align: center;
+    right: 20%;
+    margin-left: -100px;
+    line-height: 2.4;
+}
+
+.links {
+    width: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.links2 {
+    width: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 1px;
+    margin: 7px 0;
+    transition: all 0.3s ease;
+    background-color: darkgrey;
+}
+
+@media screen and (min-height: 1300px) {
+
+    .box2 {
+        grid-area: box2;
+        height: 160px;
+        margin: 30px;
+        position: relative;
+        top: 140px !important;
+    }
+    
+    .box3 {
+        grid-area: box3;
+        position: relative;
+        top: 150px !important;
+        margin: 10px 30px;
+    }
+    
+    .box4 {
+        grid-area: box4;
+        position: relative;
+        top: 570px !important;
+        margin: 30px;
+        font-weight: 100;
+    }
+ 
+}
+
+@media screen and (min-height: 1100px) {
+
+    .box2 {
+        grid-area: box2;
+        height: 160px;
+        margin: 30px;
+        position: relative;
+    }
+    
+    .box3 {
+        grid-area: box3;
+        position: relative;
+        top: 50px;
+        margin: 10px 30px;
+    }
+    
+    .box4 {
+        grid-area: box4;
+        position: relative;
+        top: 250px;
+        margin: 30px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .background {
+      width: 660px;
+      height: 600px;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .box3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .square {
+      width: 580px;
+      height: 520px;
+      margin: auto;
+    }
+
+    .square {
+      left: 50%;
+      margin-left: -290px;
+      top: 40px;
+      position: absolute;
+    }
+
+    .email {
+      top: 80px;
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      transform: translate( -50%);
+      line-height: 2.4;
+      margin: auto;
+    }
+
+    .phone {
+      top: 220px;
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      transform: translate( -50%);
+      line-height: 2.4;
+      margin: auto;
+    }
+
+    .social {
+      top: 360px;
+      position: absolute;
+      text-align: center;
+      line-height: 2.4; 
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .hamburger {
+      display: block;
+    }
+ 
+    .hamburger.open .bar:nth-child(2) {
+       opacity: 0;
+    }
+ 
+    .hamburger.open .bar:nth-child(1) {
+       transform: translateY(8px) rotate(45deg);
+    }
+ 
+    .hamburger.open .bar:nth-child(3) {
+       transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navmenu {
+       position: fixed;
+       opacity: 0;
+       flex-direction: column;
+       text-align: center;
+       transition: 0.3s;
+       padding: 60px;
+       background-color: white;
+       border: 1px solid lightgray;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%, -50%);
+       pointer-events: none;
+    }
+ 
+    .navmenu li {
+        display: block;
+        padding: 20px;
+    }
+ 
+    .navmenu.open {
+       opacity: 1;
+       pointer-events: visible;
+    }
+
+    .background {
+      width: 320px;
+      height: 600px;
+      position: absolute;
+      float: center;
+      top: 0px;
+    }
+
+    .box3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .square {
+      width: 260px;
+      height: 540px;
+      margin: auto;
+    }
+
+    .square {
+      left: 50%;
+      margin-left: -130px;
+      top: 30px;
+      position: relative;
+    }
+
+    .email {
+      top: 80px;
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      transform: translate( -50%);
+      line-height: 2.4;
+      margin: auto;
+    }
+
+    .phone {
+      top: 220px;
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      transform: translate( -50%);
+      line-height: 2.4;
+      margin: auto;
+      width: 200px;
+    }
+
+    .social {
+        top: 360px;
+        position: absolute;
+        text-align: center;
+        line-height: 2.4; 
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .box4 {
+      grid-area: box4;
+      position: relative;
+      top: 240px;
+      margin: 30px;
+      font-weight: 100;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .box1 {
+       margin: 20px 0px;
+       padding: 0 30px;
+    }
+
+    .background {
+        width: 320px;
+        height: 600px;
+        position: absolute;
+        float: center;
+        top: 0px;
+    }
+   
+    .box3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 40px;
+    }
+
+    .square {
+        width: 260px;
+        height: 540px;
+        margin: auto;
+    }
+   
+    .square {
+        left: 50%;
+        margin-left: -130px;
+        top: 30px;
+        position: relative;
+    }
+   
+    .email {
+        top: 80px;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        transform: translate( -50%);
+        line-height: 2.4;
+        margin: auto;
+    }
+   
+   .phone {
+       top: 220px;
+       position: absolute;
+       text-align: center;
+       left: 50%;
+       transform: translate( -50%);
+       line-height: 2.4;
+       margin: auto;
+       width: 200px;
+    }
+   
+   .social {
+       top: 360px;
+       position: absolute;
+       text-align: center;
+       line-height: 2.4; 
+       right: 0;
+       left: 0;
+       margin: auto;
+    }
+   
+   .box4 {
+       grid-area: box4;
+       position: relative;
+       top: 240px;
+       margin: 30px;
+       font-weight: 100;
+    }
+}
+   
+@media(hover: hover) and (pointer: fine) {
+    
+    .navmenu a:hover {
+        color: rgb(0, 174, 174);
+        text-decoration: none;
+    }
+}
