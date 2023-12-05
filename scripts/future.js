@@ -37,7 +37,7 @@ const genVideoInfo = {
   images: [],
   currentFrame: 0,
   currentImage: (index) =>
-    `./future_video/${index.toString().padStart(4, "0")}.png`,
+    `./future_video/${index.toString().padStart(4, "0")}.jpeg`,
 };
 
 animation("dvideo", genVideoInfo);
