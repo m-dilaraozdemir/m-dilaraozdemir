@@ -216,6 +216,8 @@ hr {
     transform: translateY(-50%);
     display: block;
     padding-bottom: 4vh;
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
 }
 
 .title {
