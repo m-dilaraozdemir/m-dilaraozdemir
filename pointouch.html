@@ -16,12 +16,12 @@
   <div class="wrapper">
     <div class="box1">
       <nav>
-        <a href="work.html"> 
+        <a href="index.html"> 
           <img class="logo" src="work/logo.jpg" alt="Logo">
         </a>
         <ul class="navmenu">
           <li>
-            <a class="nav-link" href="work.html"> Work </a>
+            <a class="nav-link" href="index.html"> Work </a>
           </li>
           <li>
             <a class="nav-link" href="about.html"> About </a>
@@ -41,7 +41,7 @@
       </nav>
     </div>
     <div class="box2">
-      <a href="work.html"> 
+      <a href="index.html"> 
         <i class="arrow"></i> <hr>
       </a>
       <ul>
@@ -140,49 +140,71 @@
     
       <section id="ideation">
         <h1>Ideation</h1>
-        <p>Based on the information gathered by the research, some ideas have started to form such as what features that people mainly wanted, what to incorporate or stay away from or what can be done to solve some common problems. So, I have taken notes of these ideas started to work upon them.</p>
+        <p>The features that should be included in the software were determined in the research phase. It included: An optimised checkout process, an easier way to manage the inventory, an incorporated security system, to-do lists, employee group chats, etc. These features came to life in a basic form in this ideation section.</p>
         <h2>Sitemap</h2>
-        <p>The structure of the app is hierarchical. From the homepage, it has been divided into six branches of the main menu (accounts, payment, applications, investing, budget, profile) and 'search' and 'help' sections.</p>
+        <p>There are six main branches of the hierarchical structure of the software: Checkout, inventory, finances, customers, controls, and help. By its nature, checkout had to be in a sequential structure within its branch, different from the other main branches. There is also a seventh branch, only accessible to the <span style="color: #58c39a;">managers</span>, allowing them to do manager-specific tasks.</p>
         <img class="ujm" loading="lazy" src="pointouch/sitemap.png"> 
         <h2>User Flow</h2>
         <p>Here are the user flows for the opening shift and the checkout process in <span style="color: #b04e30;">brown</span>, the closing shift in <span style="color: #7645c6;">purple</span>, and the manager's process in <span style="color: #58c39a;">teal</span>. The user flow is the same for both the retail store employees and coffee shop employees. The user flow for the coffee shop employee was made based on the assumption that the coffee shop would be functioning as a takeout or a self-serve coffee shop, where workers would be behind the counter. It would be a whole other project (with a very different user flow) to make a POS software for places where servers are involved, like restaurants, so it was avoided.</p>
         <img class="ujm" loading="lazy" src="pointouch/userflow.png"> 
         <h2>Crazy Eights</h2>        
-        <p>There were several features that I wanted to incorporate into the design or avoid while doing the crazy eights exercise. Some of them were: <span style="text-decoration: underline dotted">Customizable homepage, detailed and categorized expenses page, icons and explanatory buttons, simple design that is detailed enough, most used functions on the homepage, visible search bar, timetables, notification and scheduling options, etc. </span></p>
+        <p>During the crazy eights exercise, I mainly focused on the location and the geometry of the navigation menu, the layout and contents of the homepage, the general idea of how the checkout page will be, and the design of the schedule setting process page. The idea of a shortcut buttons menu was formed at this time.</p>
         <img class="ujm" loading="lazy" src="pointouch/crazyeight.png"> 
       </section>
 
       <section id="lowfidelity">
         <h1>Low Fidelity Design</h1>
-        <p>Slowly, from the products of the ideation process, the app's outlines have started to form. To make the ideas and concepts morph into physical forms in the best way possible, I've tried many alternative designs starting from sketching.</p>
+        <p>In the low fidelity section, different features of the crazy eights exercise were combined in the sketches, and some additional frames were added. During the wireframing phase of the sketches, it was discovered that the proportions of the sketches did not properly match the proportions of a real tablet. So, the proportions were adjusted accordingly, and more frames and features were added. In the end, it all came together with the prototype, and the missing links that connected wireframes were designed.</p>
         <h2>Sketches</h2>
-        <p>I've combined the best features from the crazy eights exercise into complete sketches on paper. I believe using pen and paper while designing fuels creativity.</p>
+        <p>One of the debates in my mind while doing the sketches was whether it would be better to put statistics at the bottom of the navigation menu or not, statistics being things like how many items are sold today. This debate will be resolved at the later stage, the wireframes. As I kept drawing, more ideas started to flow and the number of sketches grew. In some sketches, overlays were symbolised by adding shading around the desired overlay shape. </p>
         <img class="ujm" loading="lazy" src="pointouch/sketches.png"> 
         <h2>Wireframes</h2>
-        <p>Then, I've turned those paper sketches into digital wireframes. I've also added more digital wireframes to the design so that there were enough wireframes to complete multiple userflows.Below, are some of the main wireframes of the design.</p>
+        <p>Wireframes provide a more realistic perspective of the conceptual design by reflecting what is feasible and what is not. During this stage, I realized that the initial sketches were too abstract and made necessary improvements. For instance, in the case of adding statistics at the end of the navigation menu, it turned out that there was simply no place for them, and they were somewhat unnecessary. Additionally, I included more frames that were mentioned in the user flow.</p>
         <img class="wire" loading="lazy" src="pointouch/Wireframes.png">
         <h2>Low Fidelity Prototype</h2>
-        <p><br><br> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p>Prototypes consist of six different main user flows. They are the flows for the opening shift, the checkout process for a retail store, the checkout process for the coffee shop, the closing shift for the coffee shop, setting weekly staff schedules for the manager, and other duties of the manager.
+          <br><br><br><br>
+          The first prototype showcases the following flows of the opening shift: <br>
+          - Logging in,<br>
+          - Crossing done tasks,<br>
+          - Checking security.</p>
         <video preload="none" poster="pointouch/lfp1.jpeg" controls muted loop>
           <source src="pointouch/lowfiproto1.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The second prototype showcases the following flows of the checking out process for the retail store:<br>
+          - Adding a product to the checkout list from the menu, by searching and scanning,<br>
+          - Choosing the customer from saved customers,<br>
+          - Charging (receiving money and giving change and the receipt).</p>
         <video preload="none" poster="pointouch/lfp2.jpeg" controls muted loop>
           <source src="pointouch/lowfiproto2.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The third prototype showcases the following flows of the checking out process for the coffee shop:<br>
+          - Choosing and customizing a coffee order and adding it to the checkout list,<br>
+          - Adding a food item to the checkout list,<br>
+          - Charging (receiving money and giving change and the receipt).</p>
         <video preload="none" poster="pointouch/lfp3.jpeg" controls muted loop>
           <source src="pointouch/lowfiproto3.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The fourth prototype showcases the following flows of the closing shift for the coffee shop (Notice if the task is done on the software it automatically marks it down in the to-do list):<br>
+          - Taking the inventory (marking down finished supplies, throwing out expired products),<br>
+          - Checking if the amount in the till matches with the amount the POS system calculated,<br>
+          - Taking the Z-report.</p>
         <video preload="none" poster="pointouch/lfp4.jpeg" controls muted loop>
           <source src="pointouch/lowfiproto4.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The fourth prototype showcases the following flows of setting weekly staff schedules for the manager:<br> 
+          - Adding the time frames of employee 1,<br>
+          - Adding the time frames of employee 2 (partly, it would take a lot of time to do all the scheduling for the test group).
+        </p>
         <video preload="none" poster="pointouch/lfp5.jpeg" controls muted loop>
           <source src="pointouch/lowfiproto5.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The fifth prototype showcases the following flows of some other duties of the manager:<br> 
+          - Setting a one-time-only task for the day,<br>
+          - Set a discount amount for a product,<br>
+          - Viewing employee performances,<br>
+          - Looking at the growth reports,<br>
+          - Placing orders for low-stock items.</p>
         <video preload="none" poster="pointouch/lfp6.jpeg" controls muted loop>
           <source src="pointouch/lowfiproto6.mp4" type="video/mp4">
         </video>
@@ -191,45 +213,68 @@
 
       <section id="testing">
         <h1>Testing</h1>
-        <p>Next, it was time to test the low fidelity prototype.</p>
+        <p>The design involved the experiences of many different people. This included at least one coffee shop employee, one retail store employee, and one manager. To ensure proper and accurate testing, the number of participants was doubled for each category. Then, different prompts were prepared for different participants. It was unexpectedly hard to find willing participants, simply because they were too busy (even when they obviously weren't). In the end, the feedbacks were reviewed and the changes were made accordingly.</p>
         <h2>Usability Study</h2>
         <img class="ujm" loading="lazy" src="pointouch/usabilitystudy.png"> 
         <h2>Changes</h2>
-        <p>I've done changes on the wireframes based on the outcome of the usability study. The themes and their insights were the main factors for the changes.</p>
+        <p>The majority of the problems stemmed from issues concerning visibility. This was because most actions were performed in a fast-paced environment where high contrast of elements was needed to ensure clarity and distinction, and to minimize mistakes. Other changes were mainly aimed at making the software more user-friendly by eliminating confusion and unnecessary steps.</p>
         <img class="ujm" loading="lazy" src="pointouch/usabilitychanges.png"> 
       </section>
 
       <section id="highfidelity">
         <h1>High Fidelity Design</h1>
-        <p>I have had conversations with people who wanted to do something good for the environment but didn’t know where to start or what to do. Then, I interviewed these people to gather more insight. I also conducted interviews with people who are interested in investments. The primary user group was people who cared about their community and environmentalists. Here's some of the questions I've asked: <br>
-        "What would you like to see</p>
+        <p>The goal of the high-fidelity design was to maximize efficiency and ensure employee satisfaction. This was done through elevations, colours/high contrasts between colours, user-friendly motions and so on. The general vibe of a calm and cosy environment was the idea, very much like a cosy game. This was because I wanted the employees to feel like their work was a cozy fun game.</p>
         <h2>Mockups</h2>
-        <p>Next, it was time to test the low fidelity prototype.</p>
+        <p>For the mockup design, I focused on elevations and colours. Elevations included shadows, transparency, blur, and overlays. These features separated sections, indicated active areas, and created an overall seamless experience. I used calming pinks and beiges that are needed for this fast-paced and stressful work environment. I used an accent colour, that is opposite on the colour wheel from the main colours, for important elements. The background image for the manager's frames was distinct to emphasise the distinction and avoid possible mix-ups.</p>
         <img class="ujm" loading="lazy" src="pointouch/Mockups.png"> 
-        <p>Next, it was time to test the low fidelity prototype.</p>
+        <p id="darkmode">The Dark Mode. <br>It is widely known that many people prefer the dark mode of an interface. This is mainly because it is easier on the eyes and does not strain them as much, which is great for our users who need to look at the screen for extended periods. Also, some people simply like the way it looks. In conclusion, I have decided to include a dark mode option for anyone who prefers it.</p>
         <img class="ujm" loading="lazy" src="pointouch/Mockups_dark.jpeg"> 
         <h2>High Fidelity Prototype</h2>
-        <p><br><br> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p>Some of the changes done after the usability study would be best displayed in motion, in the form of a prototype. For example, in the setting schedule part of the fourth prototype, the editing of a time frame was shown in continuous motion, portraying the process much better than the still images. It is also good to see the contrast of the colours in a dynamic setting.
+          <br><br><br><br>
+          The first prototype showcases the following flows of the opening shift: <br>
+          - Logging in,<br>
+          - Crossing done tasks,<br>
+          - Checking security.
+        </p>
         <video preload="none" poster="pointouch/hfp1.jpeg" controls muted loop>
           <source src="pointouch/hifiproto1.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The second prototype showcases the following flows of the checking out process for the retail store:<br>
+          - Adding a product to the checkout list from the menu, by searching and scanning,<br>
+          - Choosing the customer from saved customers,<br>
+          - Charging (receiving money and giving change and the receipt).
+        </p>
         <video preload="none" poster="pointouch/hfp2.jpeg" controls muted loop>
           <source src="pointouch/hifiproto2.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The third prototype showcases the following flows of the checking out process for the coffee shop:<br>
+          - Choosing and customizing a coffee order and adding it to the checkout list,<br>
+          - Adding a food item to the checkout list,<br>
+          - Charging (receiving money and giving change and the receipt).</p>
         <video preload="none" poster="pointouch/hfp3.jpeg" controls muted loop>
           <source src="pointouch/hifiproto3.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The fourth prototype showcases the following flows of the closing shift for the coffee shop (Notice if the task is done on the software it automatically marks it down in the to-do list):<br>
+          - Taking the inventory (marking down finished supplies, throwing out expired products),<br>
+          - Checking if the amount in the till matches with the amount the POS system calculated,<br>
+          - Taking the Z-report.</p>
         <video preload="none" poster="pointouch/hfp4.jpeg" controls muted loop>
           <source src="pointouch/hifiproto4.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The fourth prototype showcases the following flows of setting weekly staff schedules for the manager:<br> 
+          - Adding the time frames of employee 1,<br>
+          - Adding the time frames of employee 2 (partly, it would take a lot of time to do all the scheduling for the test group).
+        </p>
         <video preload="none" poster="pointouch/hfp5.jpeg" controls muted loop>
           <source src="pointouch/hifiproto5.mp4" type="video/mp4">
         </video>
-        <p> The final prototype before the usability study. Multiple wireframes were connected to make userflows and those userflows were connected to make one complete prototype.</p>
+        <p> The fifth prototype showcases the following flows of some other duties of the manager:<br> 
+          - Setting a one-time-only task for the day,<br>
+          - Set a discount amount for a product,<br>
+          - Viewing employee performances,<br>
+          - Looking at the growth reports,<br>
+          - Placing orders for low-stock items.</p>
         <video preload="none" poster="pointouch/hfp6.jpeg" controls muted loop>
           <source src="pointouch/hifiproto6.mp4" type="video/mp4">
         </video>
