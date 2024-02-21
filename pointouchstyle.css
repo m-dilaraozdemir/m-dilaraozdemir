@@ -447,8 +447,8 @@ hr {
     display: block;
     margin: auto;
     max-width: 96%;
-    margin-bottom: 100px;
-    margin-top: -40px;
+    margin-bottom: 160px;
+    margin-top: -20px;
 }
 
 #testing {
@@ -491,6 +491,10 @@ hr {
     max-width: 600px;
 }
 
+#darkmode {
+    margin-top: 200px !important;
+}
+
 #highfidelity h1 {
     margin: 60px 14px;
 }
@@ -507,8 +511,8 @@ hr {
     display: block;
     margin: auto;
     max-width: 96%;
-    margin-bottom: 100px;
-    margin-top: -40px;
+    margin-bottom: 160px;
+    margin-top: -20px;
 }
 
 #designsystem {
